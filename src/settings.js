@@ -1,5 +1,5 @@
 const settings = {
-    converterCloudPath: "C:/dashboard",//"D:\\ConverterCloud",
+    converterCloudPath: "D:\\ConverterCloud",
     productFolderName:"[PRODUCT]",
     dashboardFileName:"dashboard.html",
     publishFolderName:"Publish",
