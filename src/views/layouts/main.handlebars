@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adverter</title>
+    <style>
+    * {
+        font-family: Arial, Helvetica, sans-serif!important;
+
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+
+        /* -webkit-user-drag: none;
+        user-drag: none; */
+
+        outline-style:none;
+        outline: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+
+    }
+
+    *:focus {
+        outline: none;
+    }
+
+    body {
+      background-color: #fff;
+      margin: 0px;
+      padding: 0px;
+    }
+
+
+    h1 {
+      font-size: 2em;
+      color: #666;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    .small {
+      font-size: .5em;
+    }
+
+    .footer {
+      margin:3em;
+      line-height: 1.5em;
+    }
+
+    .logo {
+      width: 20em;
+    }
+
+    .adverter {
+      color:#00adb5;
+    }
+
+    a {
+      color:#666;
+    }
+
+    #content {
+      position: absolute;
+      text-align: center;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+    }
+
+    </style>
+
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+  </head>
+  <body>
+    <div
+      id="content"
+      >
+      <img class="logo" src="/logo.jpg"/>
+      {{{body}}}
+      <div class="footer">
+        <hr/>
+        Сервис автосборки интернет-баннеров
+        <a class="adverter" href="http://www.adverter.ru/">adverter.ru</a><br/>
+        2020
+        <hr/>
+      </div>
+  </body>
+</html>
